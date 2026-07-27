@@ -6,10 +6,12 @@ const Nav = () => {
       <a
         href="#"
         className="font-space-grotesk font-bold text-lg tracking-wider text-teal no-underline"
-      ></a>
+      >
+        Top
+      </a>
 
       <ul className="hidden md:flex gap-9 list-none">
-        {["Skills", "Projects", "Contact"].map((item) => (
+        {["Skills", "Projects", "Contact", "Certifications"].map((item) => (
           <li key={item}>
             <a
               href={`#${item.toLowerCase()}`}
