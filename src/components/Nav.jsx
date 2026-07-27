@@ -6,9 +6,7 @@ const Nav = () => {
       <a
         href="#"
         className="font-space-grotesk font-bold text-lg tracking-wider text-teal no-underline"
-      >
-        AM_
-      </a>
+      ></a>
 
       <ul className="hidden md:flex gap-9 list-none">
         {["Skills", "Projects", "Contact"].map((item) => (
