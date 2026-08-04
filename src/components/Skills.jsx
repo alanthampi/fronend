@@ -6,7 +6,7 @@ const Skills = () => {
       icon: "🗄️",
       title: "Data Engineering",
       desc: "Designing robust pipelines that bring order to messy, high-volume data sources.",
-      tags: ["SQL", "PostgreSQL", "dbt", "Airflow", "Spark", "BigQuery"],
+      tags: ["SQL", "MySQL", "snowflake", "Airflow", "Spark", "Docker"],
     },
     {
       icon: "📊",

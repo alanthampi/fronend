@@ -2,6 +2,8 @@ import React from "react";
 import dashboard1 from "../assets/dashboard1.png";
 import dashboard2 from "../assets/dashboard2.png";
 import dashboard3 from "../assets/dashboard3.png";
+import airflowUiForEtlPipeline from "../assets/Airflow-ui-for-ETL-pipeline.png";
+
 const Projects = () => {
   const projects = [
     {
@@ -34,23 +36,23 @@ const Projects = () => {
       bg: "bg-gradient-to-br from-[#0a1a14] to-[#0d2820]",
       image: dashboard3,
     },
-    // {
-    //   category: "SQL · Data Analytics",
-    //   title: "Customer Retention Analysis",
-    //   desc: "Explored customer behavior using SQL and Power BI to identify churn patterns, high-value customers, and retention opportunities through interactive dashboards and KPI tracking.",
-    //   links: [
-    //     {
-    //       name: "GitHub",
-    //       url: "https://github.com/yourusername/customer-retention-analysis",
-    //     },
-    //     {
-    //       name: "Dashboard",
-    //       url: "https://your-dashboard-link.com",
-    //     },
-    //   ],
-    //   bg: "bg-gradient-to-br from-[#1a0a0a] to-[#280d0d]",
-    //   image: "/images/customer-dashboard.png",
-    // },
+    {
+      category: "Crypto Data ETL Pipeline · Data Engineering",
+      title: "Binance Crypto data ETL pipeline",
+      desc: "This project builds a complete end-to-end ETL workflow for cryptocurrency market data from Binance. It fetches exchange metadata and market statistics, transforms the data into a structured format, and loads it into MySQL for analytics and reporting. The pipeline is designed to run both locally and through Docker, with Airflow used for orchestration and scheduling.",
+      links: [
+        {
+          name: "GitHub",
+          url: "https://github.com/alanthampi/crypto_pipeline",
+        },
+        // {
+        //   name: "Dashboard",
+        //   url: "https://your-dashboard-link.com",
+        // },
+      ],
+      bg: "bg-gradient-to-br from-[#1a0a0a] to-[#280d0d]",
+      image: airflowUiForEtlPipeline,
+    },
     {
       category: "Power BI · Data Visualization",
       title: "Data Analyst Jobs Analysis",
