@@ -2,6 +2,7 @@ import React from "react";
 import dashboard1 from "../assets/dashboard1.png";
 import dashboard2 from "../assets/dashboard2.png";
 import dashboard3 from "../assets/dashboard3.png";
+import rag_chat from "../assets/rag_chat.png";
 import airflowUiForEtlPipeline from "../assets/Airflow-ui-for-ETL-pipeline.png";
 
 const Projects = () => {
@@ -19,6 +20,19 @@ const Projects = () => {
       bg: "bg-gradient-to-br from-[#0a1628] to-[#0d2040]",
       image: dashboard1,
     },
+    {
+  category: "Data Engineering · Analytics . AI",
+  title: "Zomato Data Engineering Pipeline",
+  desc: "Built an end-to-end Zomato data pipeline using Airflow, Snowflake, and dbt, featuring AI-powered RAG and Text-to-SQL assistants with Gemini. Implemented semantic search and context-aware review analysis, natural-language SQL querying, delivery SLA metrics, and interactive analytics dashboards.",
+  links: [
+    {
+      name: "GitHub",
+      url: "https://github.com/alanthampi/zomato_pipeline",
+    },
+  ],
+  bg: "bg-gradient-to-br from-[#1a1025] to-[#29183d]",
+  image: rag_chat,
+},
     {
       category: "Python · Machine Learning",
       title: "Insurance Retention Prediction and Visualization",
