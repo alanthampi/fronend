@@ -28,6 +28,7 @@ const Projects = () => {
     {
       name: "GitHub",
       url: "https://github.com/alanthampi/zomato_pipeline",
+      rag_chat_app_url: "https://zomato-pipeline-rag-chat.streamlit.app/"
     },
   ],
   bg: "bg-gradient-to-br from-[#1a1025] to-[#29183d]",
